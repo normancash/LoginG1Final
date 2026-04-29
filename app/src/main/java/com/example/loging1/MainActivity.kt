@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.loging1.ui.screen.App
+import com.example.loging1.ui.navigation.AppNavigation
 import com.example.loging1.ui.theme.LoginG1Theme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             LoginG1Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    App(
+                    AppNavigation(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
