@@ -6,6 +6,11 @@ import kotlinx.serialization.Serializable
 object HomeScreen
 
 @Serializable
+object LoginScreen
+@Serializable
+object SplashScreen
+
+/*@Serializable
 data class DetailScreen(
     val userId : Int
-)
+)*/
